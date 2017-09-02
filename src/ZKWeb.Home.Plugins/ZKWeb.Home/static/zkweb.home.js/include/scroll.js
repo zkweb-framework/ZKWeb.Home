@@ -4,8 +4,8 @@
 		var $animateIn, $animateOut, animateInOffset, animateOutOffset;
 		$animateIn = $('.animate-in');
 		$animateOut = $('.animate-out');
-		animateInOffset = 100;
-		animateOutOffset = 200;
+		animateInOffset = 50;
+		animateOutOffset = 100;
 		$animateIn.addClass('pre-animate');
 		$animateOut.addClass('pre-animate-out');
 		var onScroll = function (e) {
