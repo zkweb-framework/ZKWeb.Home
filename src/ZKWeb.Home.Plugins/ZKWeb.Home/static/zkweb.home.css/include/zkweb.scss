@@ -1,0 +1,30 @@
+﻿html, body {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.page-header {
+	background-color: #34495E;
+	background-image: linear-gradient(120deg, #155799, #34495E);
+}
+
+.project-tagline {
+	margin-bottom: 1.125rem;
+}
+
+.project-icons {
+	margin-bottom: 1.125rem;
+}
+
+.code {
+	border: 1px solid #e5e5e5;
+	border-radius: 0 0 .25rem .25rem;
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f7f7f7;
+	border-radius: 3px;
+}

@@ -1,0 +1,169 @@
+﻿// https://github.com/github/government.github.com/tree/gh-pages/assets/css
+.page-header {
+	width: 100%;
+	background-color: #0366d6;
+	-webkit-transition: background-image 0.6s ease-in-out 0s;
+	-moz-transition: background-image 0.6s ease-in-out 0s;
+	-o-transition: background-image 0.6s ease-in-out 0s;
+	transition: background-image 0.6s ease-in-out 0s;
+	background-image: url("../img/olivebranch.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.logo {
+	max-width: 280px
+}
+
+.fill-blue {
+	fill: #0366d6
+}
+
+.fill-gray {
+	fill: #6a737d
+}
+
+.fill-gray-light {
+	fill: #959da5
+}
+
+.img-border {
+	border: 5px solid #fff;
+	max-width: 100%
+}
+
+.featured-orgs {
+	margin-right: -55px;
+	margin-left: -55px;
+	max-height: 348px;
+	overflow: hidden;
+	text-align: center
+}
+
+#filter {
+	border-radius: 0;
+	border: none;
+	border-bottom: 2px solid #2D86FB;
+	box-shadow: none;
+	padding-left: 0;
+	padding-bottom: 0
+}
+
+.org-include .no-matches {
+	display: none
+}
+
+.animate-in {
+	-webkit-transition: all 0.6s ease-in-out 0s;
+	transition: all 0.6s ease-in-out 0s;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
+.animate-out {
+	-webkit-transition: all 0.6s ease-in-out 0s;
+	transition: all 0.6s ease-in-out 0s;
+	-webkit-animation: scale-in 0.6s ease-in-out;
+	animation: scale-in 0.6s ease-in-out
+}
+
+@keyframes scale-in {
+	0% {
+		-webkit-transform: scale(0.4);
+		transform: scale(0.4)
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+@-webkit-keyframes scale-in {
+	0% {
+		-webkit-transform: scale(0.4)
+	}
+
+	100% {
+		-webkit-transform: scale(1)
+	}
+}
+
+.pre-animate {
+	opacity: 0;
+	-webkit-transform: translateX(25px);
+	transform: translateX(25px)
+}
+
+.pre-animate-out {
+	opacity: 0;
+	-webkit-transform: scale(0.4);
+	transform: scale(0.4)
+}
+
+.a11y-table {
+	min-width: 640px;
+	border: 1px #e1e4e8 solid;
+	margin-top: 16px
+}
+
+.a11y-table th {
+	background: #eeeeee;
+	font-size: 14px
+}
+
+@media (min-width: 1012px) {
+	.a11y-table th {
+		font-size: 16px
+	}
+}
+
+.a11y-table tr {
+	font-size: 13px
+}
+
+@media (min-width: 1012px) {
+	.a11y-table tr {
+		font-size: 14px
+	}
+}
+
+.a11y-table td, .a11y-table th {
+	padding: 8px;
+	border: 1px #e1e4e8 solid
+}
+
+@media (min-width: 768px) {
+	.a11y-table td, .a11y-table th {
+		padding: 16px
+	}
+}
+
+.a11y-table td.criterion {
+	width: 45%
+}
+
+.a11y-table td.support {
+	width: 20%;
+	font-size: 16px
+}
+
+.a11y-table td.comments {
+	width: 35%
+}
+
+td.supports {
+	color: #28a745
+}
+
+td.not-applicable {
+	color: #6a737d
+}
+
+td.supports-with-exceptions {
+	color: #f66a0a
+}
+
+td.does-not-support {
+	color: #d73a49
+}

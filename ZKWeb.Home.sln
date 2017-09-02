@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{384C359C-2BAC-46FA-A4B9-71511EA31795}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZKWeb.Home.AspNetCore", "src\ZKWeb.Home.AspNetCore\ZKWeb.Home.AspNetCore.csproj", "{0D2D7B14-0716-4651-B252-DB675CE6B458}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZKWeb.Home.Console", "src\ZKWeb.Home.Console\ZKWeb.Home.Console.csproj", "{4970F019-7D1F-415E-A880-88CAD0A68210}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZKWeb.Home.Plugins", "src\ZKWeb.Home.Plugins\ZKWeb.Home.Plugins.csproj", "{99D24E6C-436C-4DCF-B3A7-A43855318121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2D7B14-0716-4651-B252-DB675CE6B458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2D7B14-0716-4651-B252-DB675CE6B458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2D7B14-0716-4651-B252-DB675CE6B458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2D7B14-0716-4651-B252-DB675CE6B458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4970F019-7D1F-415E-A880-88CAD0A68210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4970F019-7D1F-415E-A880-88CAD0A68210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4970F019-7D1F-415E-A880-88CAD0A68210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4970F019-7D1F-415E-A880-88CAD0A68210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D24E6C-436C-4DCF-B3A7-A43855318121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D24E6C-436C-4DCF-B3A7-A43855318121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D24E6C-436C-4DCF-B3A7-A43855318121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D24E6C-436C-4DCF-B3A7-A43855318121}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D2D7B14-0716-4651-B252-DB675CE6B458} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
+		{4970F019-7D1F-415E-A880-88CAD0A68210} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
+		{99D24E6C-436C-4DCF-B3A7-A43855318121} = {ADA47558-C1AF-4CFA-B0FF-AF09BE8E4602}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A52FE19C-FA6C-44B8-9E43-ED61F888229F}
+	EndGlobalSection
+EndGlobal
