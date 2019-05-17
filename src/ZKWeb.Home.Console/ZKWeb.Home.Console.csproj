@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net461;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>net461;netcoreapp2.2</TargetFrameworks>
     <AssemblyName>ZKWeb.Home.Console</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>ZKWeb.Home.Console</PackageId>
@@ -12,10 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ZKWeb" Version="2.1.0" />
-    <PackageReference Include="ZKWeb.Hosting.AspNetCore" Version="2.1.0" />
-    <PackageReference Include="ZKWeb.ORM.InMemory" Version="2.1.0" />
-    <PackageReference Include="ZKWeb.ORM.EFCore" Version="2.1.0" />
+    <PackageReference Include="ZKWeb" Version="2.2.1" />
+    <PackageReference Include="ZKWeb.Hosting.AspNetCore" Version="2.2.1" />
+    <PackageReference Include="ZKWeb.ORM.InMemory" Version="2.2.1" />
+    <PackageReference Include="ZKWeb.ORM.EFCore" Version="2.2.1" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
@@ -23,7 +23,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
 
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">
     <DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
   </PropertyGroup>
 
